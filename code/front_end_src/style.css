@@ -1,0 +1,44 @@
+/*
+@author: Mim Small 
+@version: 0.1
+*/ 
+
+/*Colour Palette*/
+:root{
+    --very-light:#e5fff4;
+    --light:#9dd5bc;
+    --med-light:#60aa89;
+    --medium: #33805e;
+    --dark:#145439;
+    --ver_dark:#03321e;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    font-style: normal;
+    font-weight: 100;
+}
+.header{
+    font-style: normal;
+    font-weight: 100;
+    background-color:var(--dark);
+    padding: 5px;
+    color: white;
+}
+
+table{
+    table-layout: fixed;
+    width: 100%;
+    
+}
+
+th{
+    background-color:var(--medium);
+    font-style: normal;
+    font-weight: 100;
+}
+
+th:hover{
+    background-color: var(--med-light);
+}
